@@ -1,39 +1,22 @@
-# Vivado project files
+# Vivado temporary files (exclude)
 *.jou
 *.log
 *.str
-*.xpe
-*.xpr
 *.cache/
-*.hw/
+*.runs/
+*.Xil/
 *.ip_user_files/
 *.sim/
 *.gen/
-*.runs/
-*.tmp/
-*.data/
-*.Xil/
-*.srcs/
-*.sdk/
-*.hbs/
-*.hwdef
-*.xsa
-*.bit
-*.ltx
-*.dcp
-*.mcs
-*.prm
 
-# IP Cache and temporary files
-*.ipcache/
-*.userprefs
-*.zip
-
-# Simulation files
-*.pb
-*.wdb
-*.dir/
-
+# Track these (do NOT ignore)
+!*.v
+!*.vhd
+!*.sv
+!*.xdc
+!*.xci
+!*.tcl
+!*.bd
 # Ignore OS/metadata files
 .DS_Store
 Thumbs.db
